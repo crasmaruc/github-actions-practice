@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-         repository: abystoma/test
-         ref: main
+          repository: abystoma/test
+          ref: main
       - name: Show me the answer
         run: cat answer.txt
