@@ -7,7 +7,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Hello world using echo.
+      - name: Hello world using echo
         run: echo "$(<hello.txt)"
       - name: Hello world using cat
         run: cat hello.txt
+      - name: Hello world using action
+        run: echo "Hello, world!"
